@@ -4,7 +4,7 @@ export default function Footer(){
     return (
         <>
             <br />
-            <footer className="h-auto bg-gray-800 bg-opacity-30">
+            <footer className="h-auto bg-gray-900 bg-opacity-30">
                 <br />
                 <div className="txt-marg flex justify-center items-center">
                 &copy; Copyright The Developers Guild { Year }
