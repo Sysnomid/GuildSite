@@ -1,55 +1,79 @@
-import React from "react";
+import React from 'react';
 
-export default function Navbar({ fixed }) {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
-  return (
-    <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-gray-900 mb-3">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-        
-        <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"> 
-            
-            <a className="text-xl leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white" href="/"> The Developers Guild</a>
-           
-            <button
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-            <i className="fas fa-bars"></i>
-          </button>
+export default class Nav extends React.Component {
+  
+  
+  constructor(props) {
+		super(props);
 
-       </div>
+		this.state = {
+			isOpen: false
+		};
+
+		this.toggleNavMenu = this.toggleNavMenu.bind(this);
+	}
+
+	toggleNavMenu() {
+		this.setState({ isOpen: !this.state.isOpen });
+	}
+
+	render() {
+		let menuIcon;
+
+		if (this.state.isOpen) {
+			menuIcon = (
+				<path
+					fill-rule="evenodd"
+					d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+				/>
+			);
+		} else {
+			menuIcon = (
+				<path
+					fill-rule="evenodd"
+					d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+				/>
+			);
+    }
+    
+
+		return (
+			<header className="bg-gray-900 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
+				<header className="flex items-center justify-between px-4 py-3 sm:p-0">
+					<a href="/">
+            The Developers Guild
+						<img className="h-8" src="TDG.png" alt="The Developers Guild" />
+					</a>
 
 
-      <div className={ "lg:flex flex-grow items-center" + (navbarOpen ? " flex" : " hidden") } id="example-navbar-danger">
+					<div className="sm:hidden">
+						<button
+							onClick={this.toggleNavMenu}
+							type="button"
+							className="text-gray-500 hover:text-white focus:text-white focus:outline-none"
+						>
+							<svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
+								{menuIcon}
+							</svg>
+						</button>
+					</div>
+				</header>
 
-           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/invite"
-                >
-                  <i className="fa fa-discord text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Discord</span>
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="https://github.com/The-Developers-Guild"
-                >
-                  <i className="fa fa-github text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Github</span>
-                </a>
-              </li>
-
-
-            </ul>
-      </div>
-      
-        </div>
-      </nav>
-    </>
-  );
+				<div className={this.state.isOpen ? 'px-2 pt-2 pb-4 block' : 'px-2 pt-2 pb-4 hidden sm:flex'}>
+					<a
+						href="/invite"
+						class="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
+					>
+						Discord 
+					</a>
+					<a
+						href="https://github.com/The-Developers-Guild"
+						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
+					>
+						Github
+					</a>
+				</div>
+			</header>
+		);
+	}
 }

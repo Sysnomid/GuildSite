@@ -44,7 +44,6 @@ export default function IndexPage() {
              <h1 className="gradient h-24 bg-gradient-to-r from-teal-400 to-blue-500">
                 <TypedString />?
             </h1>
-
         </h1>
         <hr width="70%"></hr>
         <br />
