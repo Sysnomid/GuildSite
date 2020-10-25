@@ -42,7 +42,7 @@ export default function IndexPage() {
              <h1 className="gradient h-24 bg-gradient-to-r from-teal-300 to-blue-500">
                 <TypedString />?
             </h1>       
-            <a href="/invite" className="text-blue-300 text-3xl break-words">https://discord.com/invite/xqUN8KY</a>
+            <a href="/invite" className="text-blue-300 text-2xl break-words">https://discord.com/invite/xqUN8KY</a>
         </h1>
 
 
