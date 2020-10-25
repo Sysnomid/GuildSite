@@ -35,6 +35,8 @@ export default function IndexPage() {
 
   return (
     <div>
+      
+      <div id="sec1" className="bg-blue-900">
         <br />
         <br />
         <h1 className="text-base text-5xl text-center break-words">
@@ -45,34 +47,34 @@ export default function IndexPage() {
             <a href="/invite">  
               <i class="fa fa-discord" />
               <br />
-              <button className="text-xl break-word bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Discord Link</button>
+              <button className="text-xl break-word bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Discord Invite</button>
             </a>
         <br />
         <br />
         </h1>
+        </div>
 
-
-        <hr width="70%"></hr>
+      <div id="sec2" className="bg-gray-900">
+      <br />
         <br />
-        <br />
+       <div className="txt-marg text-base text-2xl text-center">
+          <h1 class="text-4xl text-teal-500"> <b> Join The Developers Guild! </b></h1>
+          <br />
+          The Developer's Guild is a coalition of about 700 very active student and professional developers. <br />
 
-      <div className="txt-marg text-base text-2xl text-center">
-        <h1 class="text-4xl text-teal-500"> Join The Developers Guild </h1>
-        <br />
-        The Developer's Guild is a coalition of about 700 very active student and professional developers. <br />
+          <br />
 
-        <br />
-
-        Everything ranging from hobbyists building a lone application to decades-old professionals designing data flows for large scale enterprises. <br />
-        <br />
+          Everything ranging from hobbyists building a lone application to decades-old professionals designing data flows for large scale enterprises. <br />
+          <br />
 
 
-        Seek help cracking your latest hurdle or engage in the Feynman technique where you reinforce your knowledge by teaching. Share your latest project, find collaborators, or just chat with individuals in the industry! <br />
+          Seek help cracking your latest hurdle or engage in the Feynman technique where you reinforce your knowledge by teaching. Share your latest project, find collaborators, or just chat with individuals in the industry! <br />
 
-        <br />
+          <br />
 
-        Whether you've written 0 lines of code or thousands we would love to have you. <br />
-        <br />
+          Whether you've written 0 lines of code or thousands we would love to have you. <br />
+          <br />
+      </div>
       </div>
       </div>
   )
