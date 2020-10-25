@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&display=swap');
+
 @tailwind base;
 
 /* Write your own custom base styles here */
@@ -10,7 +12,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: CallingCode;
+  font-family: 'DM Mono', monospace;
   background-color: #2C3539;
   color: white;
   width: 100%;
