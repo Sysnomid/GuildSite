@@ -39,7 +39,7 @@ export default function IndexPage() {
         <br />
         <h1 className="text-base text-6xl text-center">
         Need Help With
-             <h1 className="gradient h-24 bg-gradient-to-r from-teal-300 to-blue-500">
+             <h1 className="gradient h-24 bg-gradient-to-r from-teal-300 to-blue-500 break-words">
                 <TypedString />?
             </h1>       
             <a href="/invite" className="text-blue-300 text-2xl break-words">https://discord.com/invite/xqUN8KY</a>
