@@ -39,7 +39,7 @@ export default class Nav extends React.Component {
 
 		return (
 			<header className="bg-gray-900 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
-				<header className="flex items-center justify-between px-4 py-3 sm:p-0">
+				<header className="flex items-center justify-between px-4 py-3 sm:p-0" style={{marginLeft: '12vw'}}>
 					<a href="/">
 						<img className="h-8" src="TDG.png" alt="The Developers Guild" />
             <p className="text-xl">The Developers Guild</p>
@@ -59,7 +59,7 @@ export default class Nav extends React.Component {
 					</div>
 				</header>
 
-				<div className={this.state.isOpen ? 'px-2 pt-2 pb-4 block' : 'px-2 pt-2 pb-4 hidden sm:flex'}>
+				<div className={this.state.isOpen ? 'px-2 pt-2 pb-4 block' : 'px-2 pt-2 pb-4 hidden sm:flex'}  style={{marginRight: '12vw'}}>
 					<a
 						href="/invite"
 						class="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
