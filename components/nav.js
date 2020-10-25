@@ -69,7 +69,7 @@ export default class Nav extends React.Component {
 						Discord 
 					</a>
 					<a
-						href="https://github.com/The-Developers-Guild"
+						href="/github"
 						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
 					>
             <i className="fa fa-github fa-2x"></i>
