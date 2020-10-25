@@ -1,7 +1,26 @@
-# The Developers Guild Site
+<div align="center">
 
-## Website for The Developers Guild Community
-    https://discord.com/invite/xqUN8KY
+![](https://cdn.discordapp.com/attachments/718205418723213382/733202847331647508/TDG.png)
 
+# The Developer's Guild Discord Site Files
 
+### Site Files for https://thedevsguild.com
+https://discord.gg/xqUN8KY
+
+--------------------------------------------------------------------
+
+**Copyright Sysnomid & The Developers Guild, 2020 
+https://sysnomid.com**, under MIT License
+
+----------------------------------------------------------------------
+</div>
+
+Bootstrapped with create-next-app and tailwindcss
+(https://nextjs.org, https://tailwindcss.com)
+
+**To Install:**
+
+1. Run ``` npm install ```
+
+2. run ``` npm start``` or use your process manager of choice
 
