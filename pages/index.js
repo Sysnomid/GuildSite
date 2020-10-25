@@ -46,7 +46,7 @@ export default function IndexPage() {
              <h1 className="gradient h-24 bg-gradient-to-r from-teal-300 to-blue-500">
                 <TypedString />?
             </h1>       
-            <a href="/invite" className="text-blue-300 break-wordsgi">https://discord.com/invite/xqUN8KY</a>
+            <a href="/invite" className="text-blue-300 text-3xl break-words">https://discord.com/invite/xqUN8KY</a>
         </h1>
 
 
@@ -56,6 +56,7 @@ export default function IndexPage() {
 
       <div className="txt-marg text-base text-2xl text-center">
         <h1 class="text-4xl text-teal-500"> Join The Developers Guild </h1>
+
         The Developer's Guild is a coalition of about 700 very active student and professional developers. <br />
 
         <br />

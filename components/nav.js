@@ -64,12 +64,16 @@ export default class Nav extends React.Component {
 						href="/invite"
 						class="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
 					>
+            <i className="fa fa-discord fa-2x"></i>
+            <br />
 						Discord 
 					</a>
 					<a
 						href="https://github.com/The-Developers-Guild"
 						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
 					>
+            <i className="fa fa-github fa-2x"></i>
+            <br />
 						Github
 					</a>
 				</div>
