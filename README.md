@@ -2,7 +2,7 @@
 
 ![](https://cdn.discordapp.com/attachments/718205418723213382/733202847331647508/TDG.png)
 
-# The Developer's Guild Discord Site Files
+# The Developers' Guild Discord Site Files
 
 ### Site Files for https://thedevsguild.com
 https://discord.gg/xqUN8KY
