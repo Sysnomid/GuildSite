@@ -35,13 +35,9 @@ export default function IndexPage() {
 
   return (
     <div>
-              
-        <div className="flex justify-center">  
-
-        <img src="https://cdn.discordapp.com/attachments/718205418723213382/733202847331647508/TDG.png" ></img></div>
-     
-        
-        <h1 className="text-base text-5xl text-center">
+        <br />
+        <br />
+        <h1 className="text-base text-6xl text-center">
         Need Help With
              <h1 className="gradient h-24 bg-gradient-to-r from-teal-300 to-blue-500">
                 <TypedString />?
@@ -56,7 +52,7 @@ export default function IndexPage() {
 
       <div className="txt-marg text-base text-2xl text-center">
         <h1 class="text-4xl text-teal-500"> Join The Developers Guild </h1>
-
+        <br />
         The Developer's Guild is a coalition of about 700 very active student and professional developers. <br />
 
         <br />
@@ -74,7 +70,7 @@ export default function IndexPage() {
         Whether you've written 0 lines of code or thousands we would love to have you. <br />
         <br />
       </div>
-    </div>
+      </div>
   )
 }
 
