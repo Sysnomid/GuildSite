@@ -37,20 +37,26 @@ export default function IndexPage() {
     <div>
               
       <div className="py-30">
-<div className="flex justify-center">  <img src="https://cdn.discordapp.com/attachments/718205418723213382/733202847331647508/TDG.png" ></img></div>
+  <div className="flex justify-center">  
+
+  <img src="https://cdn.discordapp.com/attachments/718205418723213382/733202847331647508/TDG.png" ></img></div>
      
+        
         <h1 className="text-base text-5xl text-center">
         Need Help With
-             <h1 className="gradient h-24 bg-gradient-to-r from-teal-400 to-blue-500">
+             <h1 className="gradient h-24 bg-blue-400">
                 <TypedString />?
             </h1>
         </h1>
+
         <hr width="70%"></hr>
         <br />
         <br />
+
         <h1 className="txt-marg text-base text-4xl text-center">
-          <h1 className="gradient text-4xl bg-gradient-to-r from-blue-400 to-red-500">Join the Developers Guild!</h1>
-          The Developer's Guild is a coalition of about 700 very active (usually 100+ are online at any given time) student and professional developers. <br />
+          <h1 className="text-4xl text-teal-500">
+          Join the Developers Guild!</h1>
+          The Developer's Guild is a coalition of about 700 very active student and professional developers. <br />
           
           <br />
           <br />
@@ -67,6 +73,7 @@ export default function IndexPage() {
           Whether you've written 0 lines of code or thousands we would love to have you. <br />
           <br />
         </h1>
+
     </div>
     </div>
   )

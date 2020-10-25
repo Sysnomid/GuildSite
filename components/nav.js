@@ -41,8 +41,8 @@ export default class Nav extends React.Component {
 			<header className="bg-gray-900 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
 				<header className="flex items-center justify-between px-4 py-3 sm:p-0">
 					<a href="/">
-            The Developers Guild
 						<img className="h-8" src="TDG.png" alt="The Developers Guild" />
+            <p className="text-xl">The Developers Guild</p>
 					</a>
 
 
