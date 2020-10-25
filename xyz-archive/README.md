@@ -4,8 +4,7 @@
 
 # The Developer's Guild Discord Site Files
 
-### Site Files for https://devguildweb.xyz
-https://discord.gg/xqUN8KY
+# ** NOTE THESE ARE THE OLD FILES OF HTTPS://DEVGUILDWEB.XYZ and no longer mantained
 
 --------------------------------------------------------------------
 
