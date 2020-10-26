@@ -6,7 +6,7 @@ function Card(props){
                 <img class="h-40 w-40 rounded-full  mx-auto" src={props.ImgLink}/>
                 <h1 className="text-3xl">
                     <br />{props.Name}
-                    <h1 className="text-2xl text-black">
+                    <h1 className="text-2xl text-gray-400">
                         {props.Tag}
                     </h1>
                 </h1>
@@ -31,7 +31,7 @@ export default function Contact(){
             <Card Name="[object Object]" Tag="#0001" ImgLink="https://avatars3.githubusercontent.com/u/37044997?s=400&u=45f88d8a6b531b27ae25b74cd18e278aa8a42bdc&v=4"/>
             <Card Name="Bluenix" Tag="#7543" ImgLink="https://media.discordapp.net/attachments/718727259489304656/734524135723761765/bluephoenixkrita.png"/>
         </div>
-        
+
         </div>
         </>
     )

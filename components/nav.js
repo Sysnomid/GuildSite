@@ -2,40 +2,38 @@ import React from 'react';
 
 export default class Nav extends React.Component {
   
-  
-  constructor(props) {
-		super(props);
+		constructor(props) {
+			super(props);
 
-		this.state = {
-			isOpen: false
-		};
+			this.state = {
+				isOpen: false
+			};
 
-		this.toggleNavMenu = this.toggleNavMenu.bind(this);
-	}
+			this.toggleNavMenu = this.toggleNavMenu.bind(this);
+		}
 
-	toggleNavMenu() {
-		this.setState({ isOpen: !this.state.isOpen });
-	}
+		toggleNavMenu() {
+			this.setState({ isOpen: !this.state.isOpen });
+		}
 
-	render() {
-		let menuIcon;
+		render() {
+			let menuIcon;
 
-		if (this.state.isOpen) {
-			menuIcon = (
-				<path
-					fill-rule="evenodd"
-					d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-				/>
-			);
-		} else {
-			menuIcon = (
-				<path
-					fill-rule="evenodd"
-					d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-				/>
-			);
-    }
-    
+			if (this.state.isOpen) {
+				menuIcon = (
+					<path
+						fill-rule="evenodd"
+						d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+					/>
+				);
+			} else {
+				menuIcon = (
+					<path
+						fill-rule="evenodd"
+						d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+					/>
+				);
+		}
 
 		return (
 			<header className="bg-gray-900 bg-opacity-30 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
@@ -58,6 +56,8 @@ export default class Nav extends React.Component {
 						</button>
 					</div>
 				</header>
+
+
 
 				<div className={this.state.isOpen ? 'px-2 pt-2 pb-4 block' : 'px-2 pt-2 pb-4 hidden sm:flex'}  style={{marginRight: '12vw'}}>
 					<a
@@ -87,6 +87,8 @@ export default class Nav extends React.Component {
 						Contact Us
 					</a>
 				</div>
+
+
 			</header>
 		);
 	}
