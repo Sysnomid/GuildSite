@@ -19,11 +19,9 @@ export default function Contact(){
     return (
         <>
 
-        <br />
-        <div className="text-base text-4xl text-center break-words">
+        <div className="text-base mt-10 text-4xl text-center break-words">
         <h1><b>Contact Us</b></h1>
-        <p className="txt-marg text-xl">Discord Usernames & Tags of our Trustees</p>
-        <br />
+        <p className="txt-marg mb-10 text-xl">Discord Usernames & Tags of our Trustees</p>
 
         <div id="contactList" className="flex flex-wrap justify-center">
             <Card Name="Sysnomid" Tag="#8167" ImgLink="https://media.discordapp.net/attachments/724975874520383519/724981072370204762/sysnomid.png"/>

@@ -16,7 +16,7 @@ export default function Footer(){
                     <a href="/invite">
                         <i className="fa fa-discord fa-2x" aria-hidden="true" />
                     </a>
-                
+                    
                     <br />
                     
                     <a href="/github">
@@ -24,7 +24,6 @@ export default function Footer(){
                     </a>
 
                     <br />
-
                                         
                     <a href="/contact">
                         <i className="fa fa-address-book-o fa-2x" aria-hidden="true" />
