@@ -22,7 +22,7 @@ a {
 }
 
 .txt-marg {
-  margin-left: 15%;
+  margin-left: 20%;
   margin-right: 20%;
 }
 
@@ -33,11 +33,11 @@ a {
 
 
 @media (max-width: 640px) { 
-  #DesktopDisplayLinks{ display: none; } 
+
 }
 
 @media (max-width: 903px) { 
-  #DesktopDisplayLinks { display: none; } 
+  
 }
 
 
