@@ -9,7 +9,7 @@ https://discord.gg/xqUN8KY
 
 --------------------------------------------------------------------
 
-**Copyright Sysnomid & The Developers Guild, 2020 
+**Copyright Sysnomid and The Developers Guild, 2020 
 https://sysnomid.com**, under MIT License
 
 ----------------------------------------------------------------------
