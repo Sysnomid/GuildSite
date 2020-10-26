@@ -25,7 +25,7 @@ function App({ Component, pageProps }) {
       />
       <meta 
         name="og:description" 
-        content="Learn Python, JS, SQL, C#, C/C++ and more!" 
+        content="Join our Discord to Get Help With and Learn Python, JS, SQL, C#, C/C++ and more!" 
         key="ogdesc"  
       />
 
