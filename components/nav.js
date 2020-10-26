@@ -64,8 +64,8 @@ export default class Nav extends React.Component {
 						href="/invite"
 						class="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
 					>
-            <i className="fa fa-discord fa-2x"></i>
-            <br />
+           				 <i className="fa fa-discord fa-2x"></i>
+            			<br />
 						Discord 
 					</a>
 
@@ -73,17 +73,18 @@ export default class Nav extends React.Component {
 						href="/github"
 						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
 					>
-            <i className="fa fa-github fa-2x"></i>
-            <br />
+            				<i className="fa fa-github fa-2x"></i>
+            			<br />
 						Github
 					</a>
 
-          <a
+
+          			<a
 						href="/contact"
 						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
 					>
-            <i className="fa fa-address-book-o fa-2x"></i>
-            <br />
+            			<i className="fa fa-address-book-o fa-2x"></i>
+            					<br />
 						Contact 
 					</a>
 				</div>

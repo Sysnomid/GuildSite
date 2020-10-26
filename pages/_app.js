@@ -3,6 +3,7 @@ import Footer from '../components/footer'
 import Nav from '../components/nav'
 import Head from 'next/head'
 function App({ Component, pageProps }) {
+
   return (
     <>
   <html lang="en">
@@ -20,7 +21,7 @@ function App({ Component, pageProps }) {
       />
 
       <meta name="og:title" 
-        content="The Developers Guild Community" 
+        content="The Devs Guild Community" 
         key="ogtitle"
       />
       <meta 
@@ -29,10 +30,12 @@ function App({ Component, pageProps }) {
         key="ogdesc"  
       />
 
-    </Head>
       <title>
-        The Developers' Guild Community
+        The Devs' Guild Community
       </title>
+
+    </Head>
+
     <div className="flex flex-col h-screen justify-between">
         <Nav />
           <Component {...pageProps} />
