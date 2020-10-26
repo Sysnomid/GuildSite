@@ -84,7 +84,7 @@ export default class Nav extends React.Component {
 					>
             <i className="fa fa-address-book-o fa-2x"></i>
             <br />
-						Contact Us
+						Contact 
 					</a>
 				</div>
 
