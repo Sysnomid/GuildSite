@@ -24,7 +24,15 @@ export default function Contact(){
 
         <div className="text-base mt-10 text-4xl text-center break-words">
         <h1><b>Contact Us</b></h1>
-        <p className="txt-marg mb-20 text-xl break-words">Discord Usernames, Tags and Emails of our Trustees</p>
+        <br />
+        <h1 className="break-words">
+            Main Email:
+            <br />
+            <p className="text-blue-500">trustee@thedevsguild.com</p>
+        </h1>
+        <br />
+
+        <p className="txt-marg mb-20 text-3xl break-words">Trustee Discord & Email </p>
 
         <div id="contactList" className="flex mb-20 ml-30 mr-30 flex-wrap justify-center">
             
