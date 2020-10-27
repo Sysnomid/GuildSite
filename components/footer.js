@@ -24,7 +24,7 @@ export default function Footer(){
                         <i className="fa fa-address-book-o fa-2x" aria-hidden="true" />
                     </a>
 
-                    <a href="/contact">
+                    <a href="mailto:trustee@thedevsguild.com">
                         <i className="fa fa-envelope-o fa-2x" aria-hidden="true" />
                     </a>
 
