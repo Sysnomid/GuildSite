@@ -62,7 +62,7 @@ export default class Nav extends React.Component {
 				<div className={this.state.isOpen ? 'px-2 pt-2 pb-4 block' : 'px-2 pt-2 pb-4 hidden sm:flex'}  style={{marginRight: '12vw'}}>
 					
 					<a
-						href="/invite"
+						href="https://discord.gg/xqUN8KY"
 						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
 					>
            				 <i className="fa fa-discord fa-2x"></i>
@@ -71,7 +71,7 @@ export default class Nav extends React.Component {
 					</a>
 
 					<a
-						href="/github"
+						href="https://github.com/The-Developers-Guild"
 						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
 					>
             				<i className="fa fa-github fa-2x"></i>
@@ -79,6 +79,14 @@ export default class Nav extends React.Component {
 						Github
 					</a>
 
+					<a
+						href="mailto:trustee@thedevsguild.com"
+						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"
+					>
+            				<i className="fa fa-envelope-o fa-2x"></i>
+            			<br />
+						Email
+					</a>
 
           			<a
 						href="/contact"

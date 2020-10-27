@@ -22,18 +22,19 @@ export default function Contact(){
     return (
         <>
 
-        <div className="text-base mt-5 text-4xl text-center break-words">
-        <h1><b>Contact Us</b></h1>
+        <div className="txt-marg text-base mt-5 text-center break-words">
+        <h1 className="text-5xl"><b>Contact Us</b></h1>
         <br />
-        <h1 className="break-words text-3xl">
+        <div className="break-words">
+            <h1 className="text-4xl mb-2">
             Main Email:
-            <br />
-            <a href="mailto:trustee@thedevsguild.com">
-                <i className="fa fa-envelope fa-2x"></i>
+            </h1>
+            <a href="mailto:trustee@thedevsguild.com" className="text-3xl">
+                <i className="fa fa-envelope-o fa-2x"></i>
                 <p className="text-blue-500">trustee@thedevsguild.com</p>
             </a>
-        </h1>
         <br />
+        </div>
 
         <p className="txt-marg mb-5 text-3xl break-words"><b>Trustee Discord & Email</b></p>
 
