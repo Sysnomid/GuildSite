@@ -29,7 +29,7 @@ export default function Contact(){
             <h1 className="text-4xl mb-2">
             Main Email:
             </h1>
-            <a href="mailto:trustee@thedevsguild.com" className="text-3xl">
+            <a href="mailto:trustee@thedevsguild.com" className="text-2xl">
                 <i className="fa fa-envelope-o fa-2x"></i>
                 <p className="text-blue-500">trustee@thedevsguild.com</p>
             </a>
