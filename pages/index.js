@@ -39,7 +39,7 @@ function HomeHeader(){
              <h1 className="gradient h-24 bg-gradient-to-r from-teal-300 to-blue-500 break-words">
                 <TypedString />?
             </h1>       
-            <a href="/invite">  
+            <a href="https://discord.gg/xqUN8KY">  
               <i class="fa fa-discord" />
               <br />
               <button className="text-xl break-word bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Discord Invite</button>
