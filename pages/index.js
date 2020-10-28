@@ -61,7 +61,7 @@ function Description(){
        <div className="txt-marg text-base text-2xl text-center">
           <h1 class="text-4xl text-teal-500"><b>Join The Developers Guild!</b></h1>
           <br />
-          The Developer's Guild is a coalition of about 700 very active student and professional developers. <br />
+          The Developer's Guild is a coalition of about 900 very active student and professional developers. <br />
           <br />
           Everything ranging from hobbyists building a lone application to decades-old professionals designing data flows for large scale enterprises. <br />
           <br />
