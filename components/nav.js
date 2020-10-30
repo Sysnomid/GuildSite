@@ -39,8 +39,15 @@ export default class Nav extends React.Component {
 			<header className="bg-gray-900 bg-opacity-30 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
 				<header className="flex items-center justify-between px-4 py-3 sm:p-0" style={{marginLeft: '12vw'}}>
 					<a href="/">
-						<img className="h-6" src="TDG.webp" alt="The Developers Guild" style={{height: '4vh', width: '4vh',}}/>
-            <p className="text-xl">The Developers Guild</p>
+						<img id="guild-image" className="h-6" src="TDG-val.webp" alt="The Developers Guild"/>
+						<style jsx>{`
+							#guild-image {
+								height: 3rem;
+								width: 3rem;
+							}
+      					`}</style>
+
+            				<p className="text-xl">The Developers Guild</p>
 					</a>
 
 
