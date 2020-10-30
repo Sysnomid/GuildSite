@@ -12,6 +12,7 @@ class TypedString extends React.Component {
               "Web Design",
               ".NET",
               "Rust",
+              "C",
               "C++",
               "Java",
               "Bash",
@@ -60,17 +61,17 @@ function Description(){
         <br />
         <br />
        <div className="txt-marg text-base text-2xl text-center">
-          <h1 class="text-4xl text-teal-500"><b>Join The Developers Guild!</b></h1>
-          <br />
-          The Developer's Guild is a coalition of about 1000 very active student and professional developers. <br />
-          <br />
-          Everything ranging from hobbyists building a lone application to decades-old professionals designing data flows for large scale enterprises. <br />
-          <br />
-          Seek help cracking your latest hurdle or engage in the Feynman technique where you reinforce your knowledge by teaching. Share your latest project, find collaborators, or just chat with individuals in the industry! <br />
-          <br />
-          Whether you've written 0 lines of code or thousands we would love to have you. <br />
-          <br />
-          <br />
+            <h1 class="text-4xl text-teal-500"><b>Join The Developers Guild!</b></h1>
+            <br />
+            The Developer's Guild is a coalition of about 1000 very active student and professional developers. <br />
+            <br />
+            Everything ranging from hobbyists building a lone application to decades-old professionals designing data flows for large scale enterprises. <br />
+            <br />
+            Seek help cracking your latest hurdle or engage in the Feynman technique where you reinforce your knowledge by teaching. Share your latest project, find collaborators, or just chat with individuals in the industry! <br />
+            <br />
+            Whether you've written 0 lines of code or thousands we would love to have you. <br />
+            <br />
+            <br />
       </div>
       </div>
     </>

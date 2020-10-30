@@ -39,11 +39,18 @@ function App({ Component, pageProps }) {
       <link
         rel="preload"
         as="style"
-        onload="this.onload=null;this.rel='stylesheet'"
+        onLoad="this.onload=null;this.rel='stylesheet'"
         href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" 
       /> 
       
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous"></link>
+      <link 
+        rel="stylesheet" 
+        media="print" 
+        onLoad="this.media='all'; this.onload=null;"
+        href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" 
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" 
+        crossOrigin="anonymous"
+      />
 
     </Head>
   </html>
