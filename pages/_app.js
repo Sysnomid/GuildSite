@@ -37,9 +37,9 @@ function App({ Component, pageProps }) {
       </title>
 
       <link
-        rel="preload"
-        as="style"
-        onLoad="this.onload=null;this.rel='stylesheet'"
+        rel="stylesheet" 
+        media="print" 
+        onLoad="this.media='all'; this.onload=null;"
         href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" 
       /> 
       
