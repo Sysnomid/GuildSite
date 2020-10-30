@@ -39,7 +39,7 @@ export default class Nav extends React.Component {
 			<header className="bg-gray-900 bg-opacity-30 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
 				<header className="flex items-center justify-between px-4 py-3 sm:p-0" style={{marginLeft: '12vw'}}>
 					<a href="/">
-						<img className="h-6" src="TDG.png" alt="The Developers Guild" style={{height: '6vh', width: '6vh',}}/>
+						<img className="h-6" src="TDG.png" alt="The Developers Guild" style={{height: '4vh', width: '4vh',}}/>
             <p className="text-xl">The Developers Guild</p>
 					</a>
 
@@ -70,6 +70,7 @@ export default class Nav extends React.Component {
 						Discord 
 					</a>
 
+					
 					<a
 						href="https://github.com/The-Developers-Guild"
 						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"

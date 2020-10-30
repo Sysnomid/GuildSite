@@ -8,10 +8,6 @@ function App({ Component, pageProps }) {
     <>
   <html lang="en">
     <Head>
-      
-      <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" /> 
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous"></link>
-      
       <meta name="image" content="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
       <meta name="title" content="The Developers Guild Community" />
       <meta name="description" content="Learn Python, JS, SQL, C#, C/C++ and more! https://discord.gg/xqUN8KY" />
@@ -32,7 +28,23 @@ function App({ Component, pageProps }) {
       <title>
         The Devs' Guild Community
       </title>
+            
+      <link
+        rel="preload"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+        href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" 
+      /> 
 
+      <link 
+        rel="preload" 
+        href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" 
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY="    
+        crossorigin="anonymous"
+      />
+      
     </Head>
 
     <div className="flex flex-col h-screen justify-between">
