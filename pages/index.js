@@ -82,7 +82,11 @@ function Description(){
                   </div>
 
                   <div className="mb-6">
-                  Seek help cracking your latest hurdle or engage in the Feynman technique where you reinforce your knowledge by teaching. Share your latest project, find collaborators, or just chat with individuals in the industry! <br />
+                  Seek help cracking your latest hurdle or engage in the Feynman technique where you reinforce your knowledge by teaching. 
+                  </div>
+
+                  <div className="mb-6">
+                  Share your latest project, find collaborators, or just chat with individuals in the industry! <br />
                   </div>
 
                   <div className="mb-20">
