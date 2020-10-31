@@ -71,7 +71,7 @@ function Description(){
 
        <div className="txt-marg text-base">     
  
-              <div id="statement" className="flex-col justify-center flex">
+              <div id="statement" className="flex-col justify-center flex text-2xl">
                 
                   <div className="mb-6">
                   The Developer's Guild is a community of about <strong className="font-bold">1000</strong> very active student and professional developers. 
@@ -91,15 +91,7 @@ function Description(){
                   
               </div>
 
-              <style jsx>
-                {`
-                
-                  #statement {
-                    font-size: 1.6rem;
-                  }
-
-                `}
-              </style>
+      
       </div>
 
 
