@@ -56,6 +56,7 @@ export default class Nav extends React.Component {
 							onClick={this.toggleNavMenu}
 							type="button"
 							className="text-gray-500 hover:text-white focus:text-white focus:outline-none"
+							aria-label="Navbar Menu"
 						>
 							<svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
 								{menuIcon}
