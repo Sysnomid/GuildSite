@@ -71,7 +71,7 @@ function Description(){
 
        <div className="txt-marg text-base">     
  
-              <div id="statement" className="flex-col justify-center flex text-2xl">
+              <div id="statement" className="flex-col justify-center flex" style={{fontSize: '1.4rem'}}>
                 
                   <div className="mb-6">
                   The Developer's Guild is a community of about <strong className="font-bold">1000</strong> very active student and professional developers. 
