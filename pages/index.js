@@ -54,7 +54,7 @@ function HomeHeader(){
           <br />
 
           </h1>
-          
+
         </div>
     </>
   )
@@ -73,15 +73,15 @@ function Description(){
  
               <div id="statement" className="flex-col justify-center flex">
                 
-                  <div>
+                  <div className="mb-6">
                   The Developer's Guild is a community of about <strong className="font-bold">1000</strong> very active student and professional developers. 
                   </div>
 
-                  <div>
+                  <div className="mb-6">
                   Everything ranging from hobbyists building a lone application to decades-old professionals designing data flows for large scale enterprises. 
                   </div>
 
-                  <div>
+                  <div className="mb-6">
                   Seek help cracking your latest hurdle or engage in the Feynman technique where you reinforce your knowledge by teaching. Share your latest project, find collaborators, or just chat with individuals in the industry! <br />
                   </div>
 
@@ -95,7 +95,6 @@ function Description(){
                 {`
                 
                   #statement {
-                    grid-gap: 2.5rem;
                     font-size: 1.6rem;
                   }
 
