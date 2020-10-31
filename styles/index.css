@@ -34,7 +34,14 @@ a {
 
 
 @media (max-width: 640px) { 
+  #statement {
+    font-size: 1.35rem;
+  }
 
+  .txt-marg {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+  }
 }
 
 @media (max-width: 903px) { 
