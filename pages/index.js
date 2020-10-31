@@ -60,19 +60,19 @@ function HomeHeader(){
   )
 }
 
-function Description(){
+function Description() {
   return (
     <>
       <div id="sec2" className="bg-gray-900 text-center">        
         <br />
         <br />
-       
-        <h1 class="text-4xl text-teal-500 mb-10"><b>Join The Developers Guild!</b></h1>     
-
-       <div className="txt-marg text-base">     
- 
+    
+        <h1 class="text-4xl text-teal-500 mb-10">
+          <b>Join The Developers Guild!</b>
+        </h1>     
+        
+        <div className="txt-marg text-base">     
               <div id="statement" className="flex-col justify-center flex" style={{fontSize: '1.4rem'}}>
-                
                   <div className="mb-6">
                   The Developer's Guild is a community of about <strong className="font-bold">1000</strong> very active student and professional developers. 
                   </div>
@@ -91,18 +91,13 @@ function Description(){
 
                   <div className="mb-20">
                   Whether you've written 0 lines of code or thousands we would love to have you. 
-                  </div>
-                  
+                  </div>      
               </div>
-
-      
       </div>
-
-
  
       </div>
     </>
-  )
+    )
 }
 
 
