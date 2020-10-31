@@ -5,7 +5,6 @@ function Card(props){
         <>
             <div className="bg-blue-900 text-teal-500 p-6 ml-6 mb-6 mr-6 rounded-2xl">
                 <img class="h-40 w-40 rounded-full  mx-auto" src={props.ImgLink}/>
-                
                 <h1 className="text-3xl">
                     <br />{props.Name}
                     <h1 className="text-2xl text-gray-400 mb-5">

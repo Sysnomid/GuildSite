@@ -40,7 +40,7 @@ function HomeHeader(){
         Need Help With
              <h1 className="gradient h-24 bg-gradient-to-r from-teal-300 to-blue-500 break-words">
                 <TypedString />?
-            </h1>       
+         </h1>       
             <a href="https://discord.gg/xqUN8KY">  
               <i class="fa fa-discord" />
               <br />
