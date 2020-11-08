@@ -38,16 +38,19 @@ export default class Nav extends React.Component {
 		return (
 			<header className="bg-gray-900 bg-opacity-30 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
 				<header className="flex items-center justify-between px-4 py-3 sm:p-0" style={{marginLeft: '12vw'}}>
+					
+					{/*Link to home*/}
 					<a href="/">
 						<img id="guild-image" className="h-6" src="images/TDG-val.webp" alt="The Developers Guild"/>
+						
 						<style jsx>{`
 							#guild-image {
 								height: 3rem;
 								width: 3rem;
 							}
       					`}</style>
-
-            				<p className="text-xl">The Developers Guild</p>
+            				{/*Title*/}
+							<p id="title" className="text-xl"><strong>The Developers Guild</strong></p>
 					</a>
 
 
@@ -69,6 +72,7 @@ export default class Nav extends React.Component {
 
 				<div className={this.state.isOpen ? 'px-2 pt-2 pb-4 block' : 'px-2 pt-2 pb-4 hidden sm:flex'}  style={{marginRight: '12vw'}}>
 					
+					{/*Links*/}
 					<a
 						href="https://discord.gg/xqUN8KY"
 						className="mt-1 py-1 block text-white font-semibold rounded px-2 hover:bg-gray-800 sm:mt-0 sm:ml-2"

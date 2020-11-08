@@ -3,15 +3,13 @@ let Year = new Date().getFullYear()
 export default function Footer(){
     return (
         <>
-            <br />
             <hr width="0"/>
-            <footer className="h-auto bg-gray-800 bg-opacity-30">
-                <br />
+            <footer className="h-auto bg-gray-800 bg-opacity-30 pt-10 pb-10">
                 <div className="txt-marg flex justify-center items-center mt-2 mb-2 text-1xl">
-                &copy; Copyright The Developers Guild { Year }
-               
-                <div className="flex gap-5 mr-6 ml-6">
-                    
+                
+                <div id="copyright">&copy; Copyright The Developers Guild { Year }</div>
+                
+                <div className="flex flex-row gap-5 mr-6 ml-6">
                     <a href="https://discord.gg/xqUN8KY">
                         <i className="fa fa-discord fa-2x" aria-hidden="true" />
                     </a>
@@ -30,8 +28,6 @@ export default function Footer(){
 
                 </div>
                 </div>
-
-                <br />
             </footer>
 
         </>
