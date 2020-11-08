@@ -36,25 +36,22 @@ function HomeHeader(){
         <div id="sec1" className="bg-blue-900">
           <br />
           <br />
-
           <h1 className="text-base text-5xl text-center break-words font-bold">
               Need Help With
               <h1 className="font-bold gradient h-24 bg-gradient-to-r from-teal-300 to-blue-500 break-words">
               <TypedString />?
           </h1>       
 
-            <a href="https://discord.gg/xqUN8KY" className="mb-20">  
+           <a href="https://discord.gg/xqUN8KY" className="mb-20">  
               <button className="text-xl font-bold break-word bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
                 <i class="fa fa-discord fa-2x mb-2" /> <br /> 
                   <strong>Discord Invite</strong>
               </button>
-            </a>
+           </a>
 
           <br />
           <br />
-
           </h1>
-
         </div>
     </>
   )
