@@ -7,7 +7,7 @@ export default function Footer(){
             <footer className="h-auto bg-gray-800 bg-opacity-30 pt-10 pb-10">
                 <div className="txt-marg flex justify-center items-center mt-2 mb-2 text-1xl">
                 
-                <div id="copyright">&copy; Copyright The Developers Guild { Year }</div>
+                <div id="copyright">&copy; Copyright The Devs' Guild { Year }</div>
                 
                 <div className="flex flex-row gap-5 mr-6 ml-6">
                     <a href="https://discord.gg/xqUN8KY">
