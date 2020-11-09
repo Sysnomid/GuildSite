@@ -50,7 +50,7 @@ export default class Nav extends React.Component {
 							}
       					`}</style>
             				{/*Title*/}
-							<p id="title" className="text-xl"><strong>The Developers Guild</strong></p>
+							<p id="title" className="text-xl"><strong>The Devs' Guild</strong></p>
 					</a>
 
 
